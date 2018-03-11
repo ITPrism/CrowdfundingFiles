@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.6" method="upgrade">
+	<name>Crowdfunding Files Package</name>
+	<packagename>crowdfundingfiles</packagename>
+	<author>Todor Iliev</author>
+    <authorEmail>todor@itprism.com</authorEmail>
+    <authorUrl>http://itprism.com</authorUrl>
+    <copyright>Copyright (C) 2017 Todor Iliev ( ITPrism.com )</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.en.html GNU/GPLv3</license>
+    <version>2.3</version>
+    <creationDate>23 February, 2017</creationDate>
+    <url>http://itprism.com</url>
+	<packager>Todor Iliev</packager>
+	<packagerurl>http://itprism.com</packagerurl>
+	<description><![CDATA[
+	<p>Crowdfunding Files is a Joomla! extension that provides functionality users to assign files to their projects.</p>
+	<p><a href="http://itprism.com/" target="_blank">Subscribe for the newsletter</a> to receive <strong>gifts</strong>, <strong>discount codes</strong>, information about <strong>updates</strong> and information about <strong>new ITPrism extensions</strong>.</p>
+	<p>Please, <a href="http://extensions.joomla.org/extensions/extension/e-commerce/donations/crowdfunding" target="_blank">vote for the extension</a> on Joomla! Extensions Directory</p>
+	]]></description>
+	
+	<files folder="packages">
+		<file type="component" 	id="com_crowdfundingfiles" >com_crowdfundingfiles.zip</file>
+		<file type="library" 	id="lib_crowdfundingfiles" >lib_crowdfundingfiles.zip</file>
+
+        <file type="plugin" id="plg_crowdfunding_files" group="crowdfunding">plg_crowdfunding_files.zip</file>
+		<file type="plugin" id="plg_content_crowdfundingfiles" group="content">plg_content_crowdfundingfiles.zip</file>
+	</files>
+
+	<scriptfile>install.php</scriptfile>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Package - Crowdfunding Files">http://cdn.itprism.com/updates/crowdfunding/packages/pkg_crowdfundingfiles.xml</server>
+	</updateservers>
+</extension>
